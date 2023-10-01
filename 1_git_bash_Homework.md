@@ -48,13 +48,13 @@
       "Your_String",
       "Your_number"
     ]
-  }`
+  }
 }
 ```
 
 Отправляем запрос:<br>
-Jiokko@Jiokko MINGW64 /g/My Drive/QA/Ksendzov Cours/Terminal/fruits<br>
-$ curl ‘http://162.55.220.72:5005/get_method?name=Nata&age=37’<br>
+`Jiokko@Jiokko MINGW64 /g/My Drive/QA/Ksendzov Cours/Terminal/fruits`<br>
+`$ curl ‘http://162.55.220.72:5005/get_method?name=Nata&age=37’<br>`
 <br>
 
 ### Комментарий:<br>

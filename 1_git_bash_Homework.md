@@ -99,9 +99,12 @@ mv -i G:/"My Drive"/QA/Ksendzov_Cours/Terminal/fruits/apples/sale.txt G:/"My Dri
 https://losst.pro/42-komandy-linux-kotorye-vy-dolzhny-znat
 
 # Навигация:
-cd (Change Directory) - сменить каталог
-cd .  —  выход в текущую папку
-cd ..  —  выход во внешнюю (родительскую) директорию
+cd (Change Directory) - сменить каталог  
+
+cd .  —  выход в текущую папку  
+
+cd ..  —  выход во внешнюю (родительскую) директорию  
+
 cd ../.. — Выйти на 2 уровня вверх
 cd !$ — Перейти в только что созданную папку
 pwd (Print Working Directory) —  вывести рабочую директорию

@@ -38,7 +38,8 @@ $ curl http://162.55.220.72:5006/terminal-hw-request<br>
 <br>
 
 Получаем ответ:<br>
-`{
+```json
+{
   "Intro": "Hello!! This is your the first response from server",
   "Tasks": {
     "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
@@ -48,7 +49,7 @@ $ curl http://162.55.220.72:5006/terminal-hw-request<br>
     ]
   }`
 }
-<br>
+```
 
 Отправляем запрос:<br>
 Jiokko@Jiokko MINGW64 /g/My Drive/QA/Ksendzov Cours/Terminal/fruits<br>

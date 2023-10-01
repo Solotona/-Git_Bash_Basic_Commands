@@ -29,11 +29,12 @@
 
 ## Часть 2 *
 
-### 1 задание. Отправить http запрос на сервер. http://162.55.220.72:5006/terminal-hw-request
+1 задание. Отправить http запрос на сервер. http://162.55.220.72:5006/terminal-hw-request
 
-### Решение:
+Решение:
 В терминале пишим запрос:
 `$ curl http://162.55.220.72:5006/terminal-hw-request`
+
 Получаем ответ:
 `{
   "Intro": "Hello!! This is your the first response from server",
@@ -45,6 +46,7 @@
     ]
   }
 }`
+
 Отправляем запрос:
 Jiokko@Jiokko MINGW64 /g/My Drive/QA/Ksendzov Cours/Terminal/fruits
 `$ curl ‘http://162.55.220.72:5005/get_method?name=Nata&age=37’`

@@ -13,7 +13,7 @@
 | 7 | Создать 3 папки: `mkdir tropical_fruits rare_fruits season_fruits` |
 | 8 | Вывести список содержимого папки | `ls -la` |
 | 9 | + Открыть любой txt файл | `cat apples/sale.txt` |
-| 10 | + написать туда что-нибудь, любой текст | `cat > apples/sale.txt`<br>`1 Robert 25 apples`<br> `2 Maggie 10 oranges`<br>`3 Tom 0 bananas` |
+| 10 | + написать туда что-нибудь, любой текст | cat > apples/sale.txt<br>1 Robert 25 apples<br>2 Maggie 10 oranges<br>3 Tom 0 bananas |
 
 11) + сохранить и выйти: 
 Ctrl+C

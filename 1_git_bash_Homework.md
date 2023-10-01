@@ -1,12 +1,12 @@
 Git_Bash Homework 1
 
 ## Часть 1. Linux terminal (GitBash) commands:
+
 | №  | Task  | Answer |
 |:------------- |:---------------| :-------------|
-| 1 | Посмотреть, где я|  pwd  |
-
-2) Создать папку: 
-mkdir fruits
+| 1 | Посмотреть, где я|  `pwd`  |
+| 2 | Создать папку |  `mkdir fruits`  |
+| 3 | Создать папку | `mkdir fruits` |
 
 3) Зайти в папку: 
 cd fruits

@@ -30,11 +30,12 @@
 ## Часть 2 *
 
 ### 1 задание. 
-```Отправить http запрос на сервер. http://162.55.220.72:5006/terminal-hw-request```<br>
+Отправить http запрос на сервер. 
+`http://162.55.220.72:5006/terminal-hw-request`<br>
 
 ### Решение
 В терминале пишим запрос:<br>
-$ curl http://162.55.220.72:5006/terminal-hw-request<br>
+`$ curl http://162.55.220.72:5006/terminal-hw-request`<br>
 <br>
 
 Получаем ответ:<br>

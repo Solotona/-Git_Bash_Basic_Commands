@@ -10,13 +10,10 @@
 | 4 | Создать 3 папки | `mkdir {apples,pears,oranges}` |
 | 5 | Зайти в любую папку | `cd apples`|
 | 6 | Создать 5 файлов (3 txt, 2 json) | `touch sale.txt  buy.txt  stock.txt 1.json 2.json` |
-| 7 | Создать 3 папки: `mkdir tropical_fruits rare_fruits season_fruits`|
-|8 | Вывести список содержимого папки | `ls -la`|
-|9| + Открыть любой txt файл | `cat apples/sale.txt`|
-|10 | + написать туда что-нибудь, любой текст| `cat > apples/sale.txt`
-`1 Robert 25 apples`
-`2 Maggie 10 oranges`
-`3 Tom 0 bananas`
+| 7 | Создать 3 папки: `mkdir tropical_fruits rare_fruits season_fruits` |
+| 8 | Вывести список содержимого папки | `ls -la` |
+| 9 | + Открыть любой txt файл | `cat apples/sale.txt` |
+| 10 | + написать туда что-нибудь, любой текст | `cat > apples/sale.txt`<br>`1 Robert 25 apples`<br> `2 Maggie 10 oranges`<br>`3 Tom 0 bananas` |
 
 11) + сохранить и выйти: 
 Ctrl+C

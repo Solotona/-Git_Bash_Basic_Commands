@@ -16,12 +16,9 @@
 | 10 | + Написать туда что-нибудь, любой текст | `cat > apples/sale.txt<br>1 Robert 25 apples<br>2 Maggie 10 oranges<br>3 Tom 0 bananas` |
 | 11 | + Сохранить и выйти | `Ctrl+C` | 
 | 12 | Выйти из папки на уровень выше | `cd ../` |
-| 13 | Переместить любые 2 файла, которые создали, в любую другую папку | `mv fruits/apples/sale.txt fruits<br>mv fruits/apples/buy.txt fruits`  |
-| 14 | скопировать любые 2 файла, которые создали, в любую другую папку | `cp fruits/sale.txt fruits/peares/sale.txt`<br>`cp fruits/buy.txt fruits/peares/buy.txt` |
-
-15) Найти файл по имени: 
-find -name "2.json"
-
+| 13 | Переместить любые 2 файла, которые создали, в любую другую папку | mv fruits/apples/sale.txt fruits<br>mv fruits/apples/buy.txt fruits  |
+| 14 | скопировать любые 2 файла, которые создали, в любую другую папку | cp fruits/sale.txt fruits/peares/sale.txt<br>cp fruits/buy.txt fruits/peares/buy.txt |
+| 15| Найти файл по имени | `find -name "2.json"` |
 16) просмотреть содержимое в реальном времени:
 tail -f log_file | grep -C 3 search_term
 Пояснение:

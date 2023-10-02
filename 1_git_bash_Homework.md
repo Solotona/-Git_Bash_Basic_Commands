@@ -63,10 +63,11 @@
 
 
 ### Задание 2
-```Написать скрипт, который выполнит автоматически команды 3, 4, 5, 6, 7, 8, 13```
+Написать скрипт, который выполнит автоматически команды 3, 4, 5, 6, 7, 8, 13
 
 ### Решение:
-`#!/bin/bash 
+```txt
+#!/bin/bash 
 mkdir fruits
 cd fruits
 mkdir {apples,pears,oranges}
@@ -76,11 +77,12 @@ mkdir tropical_fruits rare_fruits season_fruits
 cd ../
 ls -la
 mv -i G:/"My Drive"/QA/Ksendzov_Cours/Terminal/fruits/apples/sale.txt G:/"My Drive"/QA/Ksendzov_Cours/Terminal/fruits/apples/buy.txt G:/"My Drive"/QA/Ksendzov_Cours/Terminal/fruits`
+```
 
 // Комментарий: опция -i отвечает за подтверждение переноса, если уже есть файл с таким именем, чтобы не переписывал.
 
 ### 2 вариант для команды mv. Разница в том, что через опцию -t (target directory) указываю перемещение всех исходных файлов в директорию, которая указана в аргументе опции.
-`mv -i -t G:/"My Drive"/QA/Ksendzov_Cours/Terminal/fruits G:/"My Drive"/QA/Ksendzov_Cours/Terminal/fruits/apples/sale.txt G:/"My Drive"/QA/Ksendzov_Cours/Terminal/fruits/apples/buy.txt`
+mv -i -t G:/"My Drive"/QA/Ksendzov_Cours/Terminal/fruits G:/"My Drive"/QA/Ksendzov_Cours/Terminal/fruits/apples/sale.txt G:/"My Drive"/QA/Ksendzov_Cours/Terminal/fruits/apples/buy.txt
 
 =====================
 ### Как запустить sh скрипт из командной строки?
